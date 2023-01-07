@@ -82,10 +82,15 @@
     background-blend-mode: overlay;
     color: white;
     padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 .service-container-left {
     margin-top: 140px;
+    width: 50%;
 }
 
 .service-btn {
@@ -147,4 +152,30 @@ li {
     border: none;
     border-radius: 30px;
     color: red;
+}
+
+/* service right container */
+.box {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 4px 4px 8px grey;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.box-up {
+    display: flex;
+}
+
+.box-down {
+    display: flex;
+}
+
+.service-logo {
+    width: 50%;
+    padding-bottom: 10px;
 }
